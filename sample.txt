@@ -1,0 +1,71 @@
+Types of Errors in JavaScript:
+
+Syntax Errors:
+
+Violation of JavaScript language rules.
+Example: Missing parentheses, semicolons, etc.
+
+Runtime Errors:
+
+Occur during code execution.
+Example: Referencing undefined variables.
+Logical Errors:
+
+Faulty logic leading to unexpected behavior.
+Example: Incorrect formulas or algorithms.
+JavaScript Variables:
+
+var, let, const:
+Different ways to declare variables.
+var (function-scoped), let (block-scoped), and const (block-scoped and immutable).
+Naming Conventions:
+
+CamelCase:
+Standard convention for naming variables and functions in JavaScript.
+Comments in JavaScript:
+
+Single-Line Comments:
+
+// for single-line comments.
+Multi-Line Comments:
+
+/* */ for multi-line comments.
+Operators in JavaScript:
+
+Arithmetic, Comparison, Logical, Assignment, etc.
+Examples: +, -, ==, &&, =, etc.
+Alert Method:
+
+Using alert() to display a pop-up message.
+Example: alert("Hello, World!");
+Creating sample.txt File with Errors:
+Let's create a sample.txt file with examples of errors.
+// sample.txt
+
+// Syntax Errors
+1. Missing semicolon at the end of the statement
+   console.log("Hello, World")
+
+// Runtime Errors
+2. Using an undefined variable
+   let x = y + 5;
+
+// Logical Errors
+3. Incorrect formula for calculating the area of a rectangle
+   function calculateRectangleArea(length, width) {
+       return length * width * 2; // Incorrect formula
+   }
+
+// Variables
+4. Declaration using 'var' (Considered outdated)
+   var outdatedVar = "I am using var";
+
+// Naming Conventions
+5. Variable name not in camelCase
+   let NotCamelCase = "This is not camelCase";
+
+// Comments
+6. Missing closing of a multi-line comment
+   /*
+   This is a multi-line comment
+   Missing the closing symbol
